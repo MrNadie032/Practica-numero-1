@@ -10,7 +10,7 @@ namespace _9
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("BIENVENIDOS AL CALCULAR DE FUNCIONES TRIGONOMETRICAS");
+            Console.WriteLine("BIENVENIDOS AL CALCULOS FISICO DE VELOCIDAD, DISTANCIA, TIEMPO");
 
 
             Console.WriteLine("Las opciones para calcular son: ");
