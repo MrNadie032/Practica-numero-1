@@ -62,7 +62,7 @@ namespace ConsoleApp1
                 default:
                     Console.WriteLine("Opcion Invalida, aprende a leer");
                     Console.ReadLine();
-                    break;
+                    return;
             }
         }
     }
