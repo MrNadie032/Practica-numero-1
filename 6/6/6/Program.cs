@@ -19,7 +19,7 @@ namespace _6
             int Factorial = 1;
             int factorialp = 1;
             int factorialm = 1;
-            if (permutaciones <= posiciones)
+            if (permutaciones == posiciones)
             {
 
                 for (int i = Factorial; i <= permutaciones; i++)
