@@ -19,7 +19,7 @@ namespace _10
             Console.WriteLine("3 - KELVIN A CELSIUS");
             Console.WriteLine("4 - KELVIN A FARENHEIT");
             Console.WriteLine("5 - FARENHEIT A CELSIUS");
-            Console.WriteLine("5 - FARENHEIT A KELVIN");
+            Console.WriteLine("6 - FARENHEIT A KELVIN");
             Console.WriteLine("Ingresa la función a calcular: ");
             int opciones = int.Parse(Console.ReadLine());
 
