@@ -59,82 +59,82 @@ namespace _5
                     Console.WriteLine("Ingrese su primer numerador: ");
                     num1 = int.Parse(Console.ReadLine());
 
-                    Console.WriteLine("\nIngrese su primer denominador: ");
+                    Console.WriteLine("Ingrese su primer denominador: ");
                     dem1 = int.Parse(Console.ReadLine());
 
-                    Console.WriteLine("\nSu fraccion es: " + num1 + "/" + dem1);
+                    Console.WriteLine("Su fraccion es: " + num1 + "/" + dem1);
 
-                    Console.WriteLine("\nIngrese su segundo numerador: ");
+                    Console.WriteLine("Ingrese su segundo numerador: ");
                     num2 = int.Parse(Console.ReadLine());
 
-                    Console.WriteLine("\nIngrese su segundo denominador: ");
+                    Console.WriteLine("Ingrese su segundo denominador: ");
                     dem2 = int.Parse(Console.ReadLine());
 
-                    Console.WriteLine("\nSu fraccion es: " + num2 + "/" + dem2);
+                    Console.WriteLine("Su fraccion es: " + num2 + "/" + dem2);
 
                     if (dem1 == dem2)
                     {
                         int numis = num1 - num2;
 
-                        Console.WriteLine("\nLa resta de fracciones es: " + numis + "/" + dem1);
+                        Console.WriteLine("La resta de fracciones es: " + numis + "/" + dem1);
                     }
                     else
                     {
                         int numdif = ((num1 * dem2) - (num2 * dem1));
                         int demdif = dem1 * dem2;
 
-                        Console.WriteLine("\nLa resta de fracciones es: " + numdif + "/" + demdif);
+                        Console.WriteLine("La resta de fracciones es: " + numdif + "/" + demdif);
                     }
                     break;
 
                 case 3:
-                    Console.WriteLine("\nIngrese el primer numerador: ");
+                    Console.WriteLine("Ingrese el primer numerador: ");
                     num1 = int.Parse(Console.ReadLine());
 
-                    Console.WriteLine("\nIngrese el primer denominador: ");
+                    Console.WriteLine("Ingrese el primer denominador: ");
                     dem1 = int.Parse(Console.ReadLine());
 
-                    Console.WriteLine("\nSu fraccion es: " + num1 + "/" + dem1);
+                    Console.WriteLine("Su fraccion es: " + num1 + "/" + dem1);
 
-                    Console.WriteLine("\nIngrese el segundo numerador: ");
+                    Console.WriteLine("Ingrese el segundo numerador: ");
                     num2 = int.Parse(Console.ReadLine());
 
-                    Console.WriteLine("\nIngrese el segundo denominador: ");
+                    Console.WriteLine("Ingrese el segundo denominador: ");
                     dem2 = int.Parse(Console.ReadLine());
 
-                    Console.WriteLine("\nSu fraccion es: " + num2 + "/" + dem2);
+                    Console.WriteLine("Su fraccion es: " + num2 + "/" + dem2);
 
                     int numr = num1 * num2;
                     int demr = dem1 * dem2;
-                    Console.WriteLine("\nLa multiplicacion de fracciones es: " + numr + "/" + demr);
+                    Console.WriteLine("La multiplicacion de fracciones es: " + numr + "/" + demr);
 
                     break;
 
                 case 4:
-                    Console.WriteLine("\nIngrese su primer numerador: ");
+                    Console.WriteLine("Ingrese su primer numerador: ");
                     num1 = int.Parse(Console.ReadLine());
 
-                    Console.WriteLine("\nIngrese su primer denominador: ");
+                    Console.WriteLine("Ingrese su primer denominador: ");
                     dem1 = int.Parse(Console.ReadLine());
 
                     Console.WriteLine("su fraccion es: " + num1 + "/" + dem1);
 
-                    Console.WriteLine("\nIngrese su segundo numerador: ");
+                    Console.WriteLine("Ingrese su segundo numerador: ");
                     num2 = int.Parse(Console.ReadLine());
 
-                    Console.WriteLine("\nIngrese su segundo denominador: ");
+                    Console.WriteLine("Ingrese su segundo denominador: ");
                     dem2 = int.Parse(Console.ReadLine());
 
-                    Console.WriteLine("\nSu fraccion es: " + num2 + "/" + dem2);
+                    Console.WriteLine("Su fraccion es: " + num2 + "/" + dem2);
 
                     numr = num1 * dem2;
                     demr = num2 * dem1;
-                    Console.WriteLine("\nLa division de fracciones es: " + numr + "/" + demr);
+                    Console.WriteLine("La division de fracciones es: " + numr + "/" + demr);
 
                     break;
 
                 default:
-                    Console.WriteLine("Opcion incorrecta");
+                    Console.WriteLine("Opcion Invalida, aprende a leer");
                     break;
             }
 
