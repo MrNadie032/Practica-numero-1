@@ -13,10 +13,10 @@ namespace _13
             Console.WriteLine("CALCULO NETO DE SALARIOS EMPRESARIALES");
 
             Console.WriteLine("INTRODUZCA SU SALARIO TOTAL: ");
-            int salario = Convert.ToInt32(Console.ReadLine());
+            int salario = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Introduzca sus horas trabajadas a la semana: ");
-            int HORAS = Convert.ToInt32(Console.ReadLine());
+            int HORAS = int.Parse(Console.ReadLine());
 
             if (HORAS > 44)
             {
