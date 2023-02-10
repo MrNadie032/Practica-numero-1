@@ -19,10 +19,10 @@ namespace _12
 
                 if (Dinero >= 2000)
                     B2000 = Math.Abs(Dinero) / 2000;
-                Dinero = Dinero - (B100 * 2000);
+                Dinero = Dinero - (B2000 * 2000);
                 if (Dinero >= 1000)
                         B1000 = Math.Abs(Dinero) / 1000;
-                Dinero = Dinero - (B100 * 1000);
+                Dinero = Dinero - (B1000 * 1000);
                 if (Dinero >= 500)
                         B500 = Math.Abs(Dinero) / 500;
                 Dinero = Dinero - (B500 * 500);
