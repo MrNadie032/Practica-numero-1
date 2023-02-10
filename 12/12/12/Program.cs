@@ -34,7 +34,7 @@ namespace _12
                 Dinero = Dinero - (B100 * 100);
                 if (Dinero >= 50)
                     B50 = Math.Abs(Dinero) / 50;
-                Dinero = Dinero - (B100 * 50);
+                Dinero = Dinero - (B50 * 50);
                 if (Dinero >= 20)
                     B100 = Math.Abs(Dinero) / 20;
                 Dinero = Dinero - (B20 * 20);
